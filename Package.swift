@@ -35,18 +35,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "MediaPipeTasksGenAI",
-            url: "https://github.com/paescebu/SwiftTasksGenAI/releases/download/0.10.24/MediaPipeTasksGenAI.xcframework.zip",
-            checksum: "4a79aacb7864baf142448353a5131f48767bf861670cb25c70f682f97171e066"
+            url: "https://github.com/syngenta-digital/SwiftTasksGenAI/releases/download/0.10.33/MediaPipeTasksGenAI.xcframework.zip",
+            checksum: "5f7c38d8fe4bb7560ca3cd6f5ad2c1faff2a2248ecd523bbf58a6ac47525b3a6"
         ),
         .binaryTarget(
             name: "MediaPipeGenAICLibraries",
-            url: "https://github.com/paescebu/SwiftTasksGenAI/releases/download/0.10.24/MediaPipeGenAICLibraries.xcframework.zip",
-            checksum: "681771c1c7234a910d03dabeb33fc7cdc3314731af2ef81f828bfc47b2a6cf46"
+            url: "https://github.com/syngenta-digital/SwiftTasksGenAI/releases/download/0.10.33/MediaPipeGenAICLibraries.xcframework.zip",
+            checksum: "257b80a518ca3e9cff0a551693bca3b0b3445f4a6d8383937c0128773ae372ed"
         ),
         .binaryTarget(
             name: "MediaPipeTasksGenAIC",
-            url: "https://github.com/paescebu/SwiftTasksGenAI/releases/download/0.10.24/MediaPipeTasksGenAIC.xcframework.zip",
-            checksum: "298c27c204c14cd3a8b737493f11515b9229590aac676f844fba26063b2f3b38"
+            url: "https://github.com/syngenta-digital/SwiftTasksGenAI/releases/download/0.10.33/MediaPipeTasksGenAIC.xcframework.zip",
+            checksum: "7dbc016ed2460b2d7c63f17f18c509295c1b0112c2f630fa39ade049febf2daf"
         ),
         .executableTarget(
             name: "UpdatePackage",

@@ -248,7 +248,7 @@ struct UpdatePackage {
         for xc in xcframeworks {
             let name = xc.replacingOccurrences(of: ".xcframework", with: "")
             let zipPath = buildsFolder.appending(path: xc + ".zip")
-            let url = "https://github.com/paescebu/SwiftTasksGenAI/releases/download/\(tag)/\(xc).zip"
+            let url = "https://github.com/syngenta-digital/SwiftTasksGenAI/releases/download/\(tag)/\(xc).zip"
             let checksum = try fileManager.computeChecksum(for: zipPath)
             targets.append(BinaryTarget(name: name, url: url, checksum: checksum))
         }
