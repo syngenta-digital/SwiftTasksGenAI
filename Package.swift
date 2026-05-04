@@ -12,6 +12,14 @@ let package = Package(
             name: "SwiftTasksGenAI",
             targets: ["SwiftTasksGenAI"]
         ),
+        .library(
+            name: "MediaPipeTasksGenAI",
+            targets: [
+                "MediaPipeGenAICLibraries",
+                "MediaPipeTasksGenAIC",
+                "MediaPipeTasksGenAI"
+            ]
+        ),
         .executable(
             name: "UpdatePackage",
             targets: ["UpdatePackage"]
@@ -28,9 +36,6 @@ let package = Package(
                 "MediaPipeGenAICLibraries",
                 "MediaPipeTasksGenAIC",
                 "MediaPipeTasksGenAI"
-            ],
-            linkerSettings: [
-                .unsafeFlags(["-ObjC"])
             ]
         ),
         .binaryTarget(
